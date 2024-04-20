@@ -1,0 +1,73 @@
+.homePic{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+
+.homePic img{
+    height: 3cm;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.fut_but{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    height: 1cm;
+    width: 3cm;
+    background-color: brown;
+    color: white;
+    font-size: larger;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.photo img{
+    height: 30vh;
+    margin: 5%;
+    border-radius: 10px;
+}
+
+.card{
+    display: flex;
+    background-color: blue;
+}
+
+.context{
+    margin: 5%;
+}
+
+.detalis_button{
+    height: 5cm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .card{
+        display: flex;
+        background-image: linear-gradient(to right, #d3bfbf ,#fbf6ef,#ead7c3);
+        flex-direction: column;
+    }
+
+    .photo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .context{
+        height: 5cm;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
